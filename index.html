@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Cards</title>
+    <link rel="stylesheet" href="resat.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            /* background-color: #22308d; */
+            background-image: url("img/1723488365483.jpg");
+            
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(47, 11, 123, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+           
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 24px;
+            margin: 0 0 10px 0;
+        }
+
+        .card-description {
+            font-size: 16px;
+            color: #555;
+        }
+
+    </style>
+</head>
+<header>
+    <h1>FROM DRUSHKOVKA "Народ раста" present</h1>
+    <!-- <nav>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#">Музыка</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul> -->
+    <!-- </nav> -->
+</header>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="img/viLhVTN.jpg" alt="Image 1">
+            <div class="card-content">
+                <h3 class="card-title">OLBOM TREC</h3>
+                <p class="card-description">This is a description of the first card. It can contain some text about the content inside the card.</p>
+                <audio controls>
+                    <source src="Anthony Hamilton feat Elayna Boynton - Freedom.mp3" type="audio/mpeg">
+                    <!-- <source src="Ноггано - Кирпичи.mp3"> -->
+                    Ваш браузер не поддерживает аудио элемент.
+                </audio>
+                <audio controls>
+                    <source src="Anthony Hamilton feat Elayna Boynton - Freedom.mp3" type="audio/mpeg">
+                    <!-- <source src="Ноггано - Кирпичи.mp3"> -->
+                    Ваш браузер не поддерживает аудио элемент.
+                </audio>
+                <audio controls>
+                    <source src="Anthony Hamilton feat Elayna Boynton - Freedom.mp3" type="audio/mpeg">
+                    <!-- <source src="Ноггано - Кирпичи.mp3"> -->
+                    Ваш браузер не поддерживает аудио элемент.
+                </audio>
+                <audio controls>
+                    <source src="Anthony Hamilton feat Elayna Boynton - Freedom.mp3" type="audio/mpeg">
+                    <!-- <source src="Ноггано - Кирпичи.mp3"> -->
+                    Ваш браузер не поддерживает аудио элемент.
+                </audio>
+                <audio controls>
+                    <source src="Anthony Hamilton feat Elayna Boynton - Freedom.mp3" type="audio/mpeg">
+                    <!-- <source src="Ноггано - Кирпичи.mp3"> -->
+                    Ваш браузер не поддерживает аудио элемент.
+                </audio>
+                <audio controls>
+                    <source src="Anthony Hamilton feat Elayna Boynton - Freedom.mp3" type="audio/mpeg">
+                    <!-- <source src="Ноггано - Кирпичи.mp3"> -->
+                    Ваш браузер не поддерживает аудио элемент.
+                </audio>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/istockphoto-1283218807-1024x1024.jpg" alt="Image 2">
+            <div class="card-content">
+                <h3 class="card-title">Card Title 2</h3>
+                <p class="card-description">This is a description of the second card. It can contain some text about the content inside the card.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/FUO27x5 — копия (3).png" alt="Image 3">
+            <div class="card-content">
+                <h3 class="card-title">Card Title 3</h3>
+                <p class="card-description">This is a description of the third card. It can contain some text about the content inside the card.</p>
+            </div>
+        </div>
+        <!-- Добавьте больше карточек по мере необходимости -->
+    </div>
+</body>
+</html>
